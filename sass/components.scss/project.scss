@@ -1,0 +1,81 @@
+.project {
+  display: flex;
+  flex-direction: column;
+
+  transition: 250ms box-shadow;
+
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 1px 4px 6px 0px #00000029;
+  }
+
+  &__container {
+    position: relative;
+
+    overflow: hidden;
+  }
+
+  &__image {
+    display: flex;
+
+    width: 370px;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+
+    transform: translateY(100%);
+
+    width: 370px;
+    height: 294px;
+
+    background-color: #2196f3e5;
+
+    transition: 250ms transform;
+  }
+
+  &__description {
+    position: absolute;
+    left: 24px;
+    top: 63px;
+
+    line-height: 28px;
+
+    font-size: 18px;
+    letter-spacing: 0.03em;
+
+    color: var(--color-white);
+  }
+
+  &__info {
+    padding: 20px 24px;
+
+    border: 1px solid var(--color-projects-border);
+    border-top: none;
+  }
+
+  &__name {
+    margin: 0 0 4px;
+
+    line-height: 36px;
+
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+  }
+
+  &__type {
+    line-height: 30px;
+
+    font-size: 16px;
+    letter-spacing: 0.03em;
+
+    color: var(--color-grey);
+  }
+}
+
+.project:hover .project__overlay {
+  transform: translateY(0);
+}

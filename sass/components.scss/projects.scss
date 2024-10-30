@@ -1,0 +1,11 @@
+.projects {
+  &__filters {
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}

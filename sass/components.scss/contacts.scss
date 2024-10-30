@@ -1,0 +1,56 @@
+.contacts {
+  display: flex;
+  gap: 50px;
+
+  &--footer {
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    line-height: 21px;
+
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.02em;
+
+    color: var(--color-grey);
+
+    transition: 250ms color;
+
+    &:hover {
+      color: var(--color-blue);
+    }
+
+    &--footer {
+      color: var(--color-link-footer);
+
+      &:nth-child(1) {
+        color: var(--color-white);
+      }
+
+      &:nth-child(1):hover {
+        color: var(--color-blue);
+      }
+    }
+  }
+
+  &__icon {
+    color: inherit;
+
+    &--email {
+      width: 16px;
+      height: 12px;
+    }
+
+    &--smartphone {
+      width: 10px;
+      height: 16px;
+    }
+  }
+}

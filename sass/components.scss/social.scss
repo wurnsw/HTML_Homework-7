@@ -1,0 +1,47 @@
+.social {
+  &__title {
+    margin: 0 0 20px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__item {
+    color: var(--color-icon);
+    background-color: var(--color-white);
+
+    border-radius: 50%;
+
+    transition: 250ms background-color, 250ms color;
+
+    &:hover {
+      color: var(--color-white);
+      background-color: var(--color-blue);
+    }
+
+    &--footer {
+      color: var(--color-white);
+      background-color: var(--color-icon-footer);
+
+      &:hover {
+        color: var(--color-white);
+        background-color: var(--color-blue);
+      }
+    }
+  }
+
+  &__link {
+    padding: 12px;
+
+    display: flex;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+  }
+}

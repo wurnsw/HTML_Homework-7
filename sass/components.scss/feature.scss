@@ -1,0 +1,41 @@
+.feature {
+  width: 270px;
+
+  &__image {
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 120px;
+
+    background-color: var(--color-light-violet);
+
+    border-radius: 4px;
+  }
+
+  &__icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  &__title {
+    margin: 0 0 10px;
+
+    line-height: 16px;
+
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+  }
+
+  &__description {
+    line-height: 24px;
+
+    font-size: 14px;
+    letter-spacing: 0.03em;
+
+    color: var(--color-grey);
+  }
+}

@@ -1,0 +1,10 @@
+.services {
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    position: relative;
+  }
+}

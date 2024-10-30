@@ -1,0 +1,21 @@
+.clients {
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    color: var(--color-icon);
+    background-color: var(--color-white);
+
+    border: 1px solid var(--color-icon);
+    border-radius: 4px;
+
+    transition: 250ms color;
+
+    &:hover {
+      color: var(--color-blue);
+      border: 1px solid var(--color-blue);
+    }
+  }
+}

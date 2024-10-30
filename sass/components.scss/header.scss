@@ -1,0 +1,15 @@
+.header {
+  border-bottom: 1px solid #ececec;
+
+  &__content {
+    display: flex;
+  }
+
+  &__logo {
+    margin-right: 93px;
+  }
+
+  &__contacts {
+    margin-left: auto;
+  }
+}
