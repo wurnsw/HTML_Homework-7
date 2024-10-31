@@ -32,15 +32,15 @@ $color-light-violet: #f5f4fa;
 $color-projects-border: #eeeeee;
 $color-icon: #afb1b8;
 $color-icon-footer: #ffffff1a;
-$main-font: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
-$logo-font: Raleway, Arial, Helvetica, sans-serif;
+$font-main: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+$font-logo: Raleway, Arial, Helvetica, sans-serif;
 
 /* #endregion */
 
 /* #region NORMALIZE*/
 
 html {
-  font-family: $main-font;
+  font-family: $font-main;
   color: $color-black;
 }
 
@@ -203,7 +203,7 @@ a {
   display: flex;
   align-items: center;
 
-  font-family: $logo-font;
+  font-family: $font-logo;
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -319,7 +319,6 @@ a {
 
     border: none;
   }
-
   &--bold {
     font-weight: 700;
   }
@@ -459,7 +458,7 @@ a {
 /* #region TEAM */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: $color-light-violet;
 
   &__list {
     display: flex;
