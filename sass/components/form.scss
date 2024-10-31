@@ -18,6 +18,10 @@
 
     color: var(--color-grey);
 
+    &:hover .form__icon {
+      color: var(--color-blue);
+    }
+
     &--message {
       margin-bottom: 20px;
     }
@@ -81,6 +85,14 @@
       clip-path: inset(100%);
       clip: rect(0 0 0 0);
       overflow: hidden;
+
+      &:checked ~ .form__icon--checkbox {
+        display: none;
+      }
+
+      &:checked ~ .form__icon--checkbox-checked {
+        display: block;
+      }
     }
   }
 
@@ -111,20 +123,9 @@
       height: 16px;
       width: 16px;
     }
+
+    & .form__icon--checkbox-checked {
+      display: none;
+    }
   }
-}
-
-.form__icon .form__icon--checkbox-checked {
-  display: none;
-}
-
-.form__label:hover .form__icon {
-  color: var(--color-blue);
-}
-
-.form__input--terms:checked ~ .form__icon--checkbox {
-  display: none;
-}
-.form__input--terms:checked ~ .form__icon--checkbox-checked {
-  display: block;
 }
