@@ -10,7 +10,7 @@
 
     height: 120px;
 
-    background-color: var(--color-light-violet);
+    background-color: $color-light-violet;
 
     border-radius: 4px;
   }
@@ -36,6 +36,6 @@
     font-size: 14px;
     letter-spacing: 0.03em;
 
-    color: var(--color-grey);
+    color: $color-grey;
   }
 }

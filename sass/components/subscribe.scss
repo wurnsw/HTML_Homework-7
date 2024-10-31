@@ -21,7 +21,7 @@
 
     background-color: transparent;
 
-    color: var(--color-white);
+    color: $color-white;
 
     transition: border-color 250ms;
 
@@ -36,7 +36,7 @@
     }
 
     &:hover {
-      border-color: var(--color-blue);
+      border-color: $color-blue;
     }
   }
 

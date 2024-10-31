@@ -11,25 +11,25 @@
   }
 
   &__item {
-    color: var(--color-icon);
-    background-color: var(--color-white);
+    color: $color-icon;
+    background-color: $color-white;
 
     border-radius: 50%;
 
     transition: 250ms background-color, 250ms color;
 
     &:hover {
-      color: var(--color-white);
-      background-color: var(--color-blue);
+      color: $color-white;
+      background-color: $color-blue;
     }
 
     &--footer {
-      color: var(--color-white);
-      background-color: var(--color-icon-footer);
+      color: $color-white;
+      background-color: $color-icon-footer;
 
       &:hover {
-        color: var(--color-white);
-        background-color: var(--color-blue);
+        color: $color-white;
+        background-color: $color-blue;
       }
     }
   }

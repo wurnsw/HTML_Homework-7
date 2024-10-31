@@ -42,7 +42,7 @@
 
     width: 528px;
 
-    background-color: var(--color-white);
+    background-color: $color-white;
 
     box-shadow: 0px 2px 1px #00000033;
 
@@ -63,7 +63,7 @@
     height: 30px;
     width: 30px;
 
-    background-color: var(--color-white);
+    background-color: $color-white;
 
     border: 1px solid #0000001a;
     border-radius: 50%;
@@ -71,10 +71,10 @@
     transition: color 250ms, border-color 250ms;
 
     &:hover {
-      border-color: var(--color-blue);
+      border-color: $color-blue;
 
       & .modal__close {
-        color: var(--color-blue);
+        color: $color-blue;
       }
     }
   }
@@ -83,7 +83,7 @@
     width: 11px;
     height: 11px;
 
-    color: var(--color-black);
+    color: $color-black;
 
     transition: 250ms color;
   }
@@ -98,7 +98,7 @@
 
     text-align: center;
 
-    color: var(--color-black);
+    color: $color-black;
   }
 
   &__form {

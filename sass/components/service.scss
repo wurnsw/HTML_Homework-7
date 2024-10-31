@@ -1,5 +1,4 @@
 .service {
-  
   &__image {
     display: flex;
 
@@ -29,6 +28,6 @@
     font-weight: 700;
     letter-spacing: 0.03em;
 
-    color: var(--color-white);
+    color: $color-white;
   }
 }

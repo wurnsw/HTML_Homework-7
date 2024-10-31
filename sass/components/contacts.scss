@@ -19,23 +19,23 @@
     font-style: normal;
     letter-spacing: 0.02em;
 
-    color: var(--color-grey);
+    color: $color-grey;
 
     transition: 250ms color;
 
     &:hover {
-      color: var(--color-blue);
+      color: $color-blue;
     }
 
     &--footer {
-      color: var(--color-link-footer);
+      color: $color-link-footer;
 
       &:nth-child(1) {
-        color: var(--color-white);
-      }
+        color: $color-white;
 
-      &:nth-child(1):hover {
-        color: var(--color-blue);
+        &:hover {
+          color: $color-blue;
+        }
       }
     }
   }

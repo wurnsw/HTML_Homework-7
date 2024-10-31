@@ -1,7 +1,8 @@
 .footer {
   padding: 60px 0;
 
-  background-color: var(--background-color);
+  background-color: $background-color;
+
   &__content {
     display: flex;
     justify-content: space-between;
@@ -20,6 +21,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: var(--color-white);
+    color: $color-white;
   }
 }

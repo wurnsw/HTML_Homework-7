@@ -8,10 +8,10 @@
   letter-spacing: 0.03em;
 
   &__web {
-    color: var(--color-blue);
+    color: $color-blue;
   }
 
   &--footer {
-    color: var(--color-white);
+    color: $color-white;
   }
 }
