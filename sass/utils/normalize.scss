@@ -1,7 +1,6 @@
-
 html {
-  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
-  color: var(--color-black);
+  font-family: $font-main;
+  color: $color-black;
 }
 
 a {
