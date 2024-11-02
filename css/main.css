@@ -35,8 +35,14 @@ a {
 }
 
 .container {
-  width: 1170px;
   margin: 0 auto;
+  max-width: 320px;
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
 }
 
 .header {
@@ -622,6 +628,9 @@ a {
   font-family: inherit;
   resize: none;
 }
+.form__input--message::-moz-placeholder {
+  color: rgba(117, 117, 117, 0.5019607843);
+}
 .form__input--message::placeholder {
   color: rgba(117, 117, 117, 0.5019607843);
 }
@@ -633,7 +642,8 @@ a {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  clip-path: inset(100%);
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -686,6 +696,12 @@ a {
   transition: border-color 250ms;
   cursor: pointer;
 }
+.subscribe__input::-moz-placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
 .subscribe__input::placeholder {
   font-family: inherit;
   font-size: 16px;
@@ -703,6 +719,4 @@ a {
   position: absolute;
   right: 0;
   bottom: 0;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=main.css.map */

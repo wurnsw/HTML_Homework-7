@@ -1,4 +1,11 @@
+@import "../utils/mixins.scss";
+
 .container {
-  width: 1170px;
   margin: 0 auto;
+  max-width: 320px;
+  width: 100%;
+
+  @include onDesktop {
+    max-width: 1170px;
+  }
 }
